@@ -1,0 +1,20 @@
+[project]
+title = "Top 10 FIFA 2021 Players"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Top 10 FIFA 2021 Players"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.FIFA_21]
+type = "csv"
+path = "data/FIFA_21.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
